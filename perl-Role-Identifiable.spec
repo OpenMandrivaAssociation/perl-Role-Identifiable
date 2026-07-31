@@ -1,7 +1,7 @@
 %define upstream_name    Role-Identifiable
 Name:		perl-%{upstream_name}
-Version:	0.005
-Release:	6
+Version:	0.009
+Release:	1
 
 Summary:	A thing with an ident attribute
 License:	GPL+ or Artistic
@@ -22,7 +22,7 @@ This is an incredibly simple role. It adds a required 'ident' attribute
 that stores a simple string, meant to identify exceptions.
 
 %prep
-%setup -q -n %{upstream_name}-%{version}
+%setup -q -n Role-Identifiable-0.009
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
